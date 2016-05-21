@@ -13,7 +13,7 @@ public class Grid {
 		}
 		StdDraw.clear();
 	}
-	
+
 	public static void drawG () {
 		StdDraw.setPenRadius();
 		StdDraw.setPenColor();
