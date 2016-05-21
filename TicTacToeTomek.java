@@ -18,7 +18,7 @@ public class TicTacToeTomek {
             		System.out.println("File doesn't exist");
             		return;
         	}
-    	
+    
 		int n = in.nextInt();
 		Grid g=new Grid ();
 		for (int i=0; i<n; i++) {
