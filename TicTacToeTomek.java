@@ -8,16 +8,16 @@ public class TicTacToeTomek {
 		char b[][] = new char [4][4]; 
 		String boardstring="", result="";
 		char r;
-        Scanner in;
-    	try
-        {
-        	in = new Scanner(new FileReader("A-small-practice.in"));    
-        }
-        catch(FileNotFoundException String)
-        {
-            System.out.println("File doesn't exist");
-            return;
-        }
+		Scanner in;
+    		try
+		{
+        		in = new Scanner(new FileReader("A-small-practice.in"));    
+		}
+        	catch(FileNotFoundException String)
+        	{
+            		System.out.println("File doesn't exist");
+            		return;
+        	}
     	
 		int n = in.nextInt();
 		Grid g=new Grid ();
