@@ -12,7 +12,6 @@ public class Grid {
 			e.printStackTrace();
 		}
 		StdDraw.clear();
-
 	}
 	
 	public static void drawG () {
@@ -229,30 +228,25 @@ public class Grid {
 		}
 	
 	public static void drawO (double x, double y) {
-		//CREATE PARAMS FOR LOCATION ON SCREEN 
 		StdDraw.setPenRadius(0.025);
 	    StdDraw.setPenColor(StdDraw.BOOK_BLUE);
 		StdDraw.circle(x, y, .3);
 	}
 	public static void drawX (double x0, double y0, double x1, double y1, double x2, double y2,
 			double x3, double y3) {
-		//PARAMS
 		StdDraw.setPenRadius(0.025);
 	    StdDraw.setPenColor(StdDraw.PINK);
 	    StdDraw.line(x0, y0, x1, y1);
 		StdDraw.line(x2, y2, x3, y3);
-		//StdDraw.circle(x, y, .3);
 	}
 	public static void drawT (double x0, double y0, double x1, double y1, 
 			double x2, double y2, double x3, double y3) {
-		//SET SAME PARAMS
 		StdDraw.setPenRadius(0.025);
 	    StdDraw.setPenColor(StdDraw.GREEN);
 		StdDraw.line(x0, y0, x1, y1);
 		StdDraw.line(x2, y2, x3, y3);
 	}
 	public static void drawDot (double x, double y) {
-		//SET PARAMS 
 		StdDraw.setPenRadius(0.025);
 	    StdDraw.setPenColor(StdDraw.DARK_GRAY);
 		StdDraw.filledCircle(x, y, .1);
